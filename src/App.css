@@ -1,0 +1,41 @@
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.custom .fc-day-today {
+  background-color: white !important;
+}
+
+.custom .fc-daygrid-day-top {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 6px;
+}
+
+.custom .fc-day-today .fc-daygrid-day-number {
+  margin-top: 5px;
+  border-radius: calc(infinity * 1px);
+  padding-block: 4px;
+  padding-inline: 6px;
+  background-color: #0F4C81;
+  color: white;
+}
+
+.custom .fc-daygrid-day-events {
+  margin-top: 10px;
+}
